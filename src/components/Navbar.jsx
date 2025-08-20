@@ -22,7 +22,7 @@ const Navbar = () => {
         <ul className="space-y-4 mt-15">
           <li className="flex items-center gap-5 hover:shadow-lg hover:scale-105 transition duration-200  hover:text-amber-100">
             <img className="rounded-half h-6 w-6  " src={Homelogo} alt="" /> 
-            <NavLink to="/">Dashboard</NavLink>
+            <Link to="/">Dashboard</Link>
           </li>
           <li className="flex items-center gap-5 hover:shadow-lg hover:scale-105 transition duration-200  hover:text-amber-100">
             <img className="rounded-half h-6 w-6" src={PortfolioLogo} alt="" />

@@ -16,6 +16,7 @@ const App = () => {
           <Route path="/Notification" element={<Notification />} />
           <Route path="/Settings" element={<Settings />} />
           <Route path="/Profile" element={<Profile />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </div>
