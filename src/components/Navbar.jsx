@@ -6,7 +6,7 @@ import ReportsLogo from "../assets/Logo/ReportsLogo.png";
 import NotificationLogo from "../assets/Logo/NotificationLogo.png";
 import SettingsLogo from "../assets/Logo/SettingsLogo.png";
 import ProfileLogo from "../assets/Logo/ProfileLogo.png";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink,Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -15,14 +15,14 @@ const Navbar = () => {
         <div className="flex items-center gap-3 mb-6">
           <img className="rounded-full h-13 w-13" src={Logo1} alt="" />
           <h1 className="text-lg font-bold leading-loose">
-            <a href="https://ytstv.hair/">MyFinance</a>
+           <Link to="/">MyFinance</Link> 
           </h1>
         </div>
 
         <ul className="space-y-4 mt-15">
           <li className="flex items-center gap-5 hover:shadow-lg hover:scale-105 transition duration-200  hover:text-amber-100">
-            <img className="rounded-half h-6 w-6  " src={Homelogo} alt="" />
-            <NavLink to="/Dashboard">Dashboard</NavLink>
+            <img className="rounded-half h-6 w-6  " src={Homelogo} alt="" /> 
+            <NavLink to="/">Dashboard</NavLink>
           </li>
           <li className="flex items-center gap-5 hover:shadow-lg hover:scale-105 transition duration-200  hover:text-amber-100">
             <img className="rounded-half h-6 w-6" src={PortfolioLogo} alt="" />
